@@ -111,7 +111,7 @@ header {
     text-align: center;
 }
 
-.light-blue-card h2 {
+.light-blue-card h3 {
     color: var(--blueColor);
     margin-block: 20px;
 }
