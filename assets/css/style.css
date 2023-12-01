@@ -13,7 +13,7 @@ html {
 }
 
 .body-padding {
-    padding-inline: 15%;
+    padding-inline: 10%;
 }
 
 .flex-container {
@@ -22,6 +22,7 @@ html {
 
 img {
     width: 100%;
+    display: block;
 }
 
 ul {
@@ -39,19 +40,30 @@ a {
     --yellowColor: #FDC15F;
 }
 
+section {
+    margin-block: 40px;
+}
+
 /*********************************************************
     BUTTONS STYLE 
 *********************************************************/
 
 .btn {
     border: none;
+    border-radius: 25px;
 }
 
 .btn-white {
     padding: 8px 13px;
     color: black;
     background-color: white;
-    border-radius: 25px;
+}
+
+.btn-blue {
+    padding: 8px 40px;
+    color: white;
+    background-color: var(--blueColor);
+    text-transform: capitalize;
 }
 
 /****************** SECTION HEADER ******************/
@@ -84,6 +96,65 @@ header {
 
 /****************** !SECTION HEADER END ******************/
 
+/****************** SECTION INTRO ******************/
+
+.blue-icon {
+    color: var(--blueColor);
+    font-size: 3rem;
+}
+
+.light-blue-card {
+    background-color: var(--lightBlueColor);
+    border-radius: 20px;
+    width: calc(((100% / 3) - 20px) + (20px / 3));
+    padding: 20px;
+    text-align: center;
+}
+
+.light-blue-card h2 {
+    color: var(--blueColor);
+    margin-block: 20px;
+}
+
+.light-blue-card p {
+    padding-block: 20px;
+}
+
+.light-blue-card button {
+    margin-bottom: 50px;
+}
+
+.light-blue-card:first-child {
+    width: calc((((100% / 3) * 2) - 20px) + ((20px / 3) *2));
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.light-blue-card:first-child div {
+    flex-basis: 60%;
+}
+
+.light-blue-card:first-child figure {
+    position: relative;
+    height: 100%;
+    flex-basis: 40%;
+    justify-content: center;
+}
+
+.light-blue-card:first-child figure img {
+    position: absolute;
+    bottom: 0;
+    height: inherit;
+    width: min-content;
+}
+
+#intro {
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 20px;
+}
+
+/****************** !SECTION INTRO END ******************/
 
 
 
