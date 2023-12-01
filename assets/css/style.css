@@ -10,6 +10,7 @@
 
 html {
     font-family: 'PT Sans', sans-serif;
+    line-height: 160%;
 }
 
 .body-padding {
@@ -38,6 +39,7 @@ a {
     --lightBlueColor: #B5DEFF;
     --purpleColor: #9792E4;
     --yellowColor: #FDC15F;
+    --darkGreyColor: #2e2e2e;
 }
 
 section {
@@ -117,11 +119,13 @@ header {
 }
 
 .light-blue-card p {
-    padding-block: 20px;
+    margin-top: 20px;
+    color: var(--darkGreyColor);
 }
 
 .light-blue-card button {
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .light-blue-card:first-child {
@@ -135,17 +139,15 @@ header {
 }
 
 .light-blue-card:first-child figure {
-    position: relative;
-    height: 100%;
+    /* position: relative; */
     flex-basis: 40%;
     justify-content: center;
 }
 
 .light-blue-card:first-child figure img {
-    position: absolute;
-    bottom: 0;
-    height: inherit;
-    width: min-content;
+    /* position: absolute; */
+    height: 100%;
+    /* width: min-content; */
 }
 
 #intro {
@@ -171,6 +173,8 @@ header {
         padding-inline: 3%;
     }
 
+    /****************** HEADER ******************/
+
     .hamburger {
         display: block;
         width: 20px;
@@ -180,6 +184,18 @@ header {
         display: none;
     }
 
+    /****************** INTRO SECTION ******************/
+
+    .light-blue-card:first-child {
+        flex-direction: column;
+    }
+
+    .light-blue-card:first-child figure {
+        flex-basis: 100%;
+        justify-content: flex-start;
+        width: 50%;
+        height: 100%;
+    }
 }
 
 
@@ -192,5 +208,40 @@ header {
 
     header {
         padding-block: 15px;
+    }
+
+    /****************** INTRO SECTION ******************/
+
+    .blue-icon {
+        font-size: 6rem;
+    }
+
+    .light-blue-card,
+    .light-blue-card:first-child {
+        width: 100%;
+    }
+
+    .light-blue-card {
+        padding: 40px;
+    }
+
+    .light-blue-card:first-child figure {
+        width: 100%;
+    }
+
+    .btn-blue {
+        font-size: 1.5rem;
+        padding: 10px 80px;
+        border-radius: 50px;
+        letter-spacing: .2rem;
+    }
+
+    .light-blue-card h3,
+    .light-blue-card:first-child h3 {
+        font-size: 2rem;
+    }
+
+    .light-blue-card p {
+        font-size: 1.2rem;
     }
 }
