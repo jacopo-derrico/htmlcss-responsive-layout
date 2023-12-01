@@ -3,3 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*********************************************************
+    GENERIC STYLE 
+*********************************************************/
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.body-padding {
+    padding-inline: 15%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --blueColor: #0284FD;
+    --lightBlueColor: #B5DEFF;
+    --purpleColor: #9792E4;
+    --yellowColor: #FDC15F;
+}
+
+/*********************************************************
+    BUTTONS STYLE 
+*********************************************************/
+
+.btn {
+    border: none;
+}
+
+.btn-white {
+    padding: 8px 13px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+/****************** SECTION HEADER ******************/
+
+header {
+    background-color: var(--blueColor);
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.menu {
+    gap: 2rem;
+    text-transform: capitalize;
+    color: white;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu button {
+    text-transform: capitalize;
+}
+
+/****************** !SECTION HEADER END ******************/
+
+
+
+
+
+/*********************************************************
+    RESPONSIVE 
+*********************************************************/
+
+/****************** SECTION TABLET VERSION ******************/
+
+@media screen and (max-width: 748px) {
+
+    .body-padding {
+        padding-inline: 3%;
+    }
+
+    .hamburger {
+        display: block;
+        width: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .body-padding {
+        padding-inline: 5%;
+    }
+
+    header {
+        padding-block: 15px;
+    }
+}
