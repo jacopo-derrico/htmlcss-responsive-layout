@@ -52,8 +52,28 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
 h3 {
     font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.2rem;
 }
 
 /*********************************************************
@@ -123,7 +143,7 @@ header {
     text-align: center;
 }
 
-.light-blue-card h3 {
+.light-blue-card h5 {
     color: var(--blueColor);
     margin-block: 20px;
 }
@@ -176,7 +196,6 @@ header {
     gap: 70px;
 }
 
-#planning h3,
 #planning h4 {
     text-transform: capitalize;
 }
@@ -187,7 +206,7 @@ header {
     justify-content: space-between;
 }
 
-#left-card h3 {
+#left-card h4 {
     padding-block: 30px;
 }
 
@@ -232,12 +251,13 @@ header {
 #testimonials .testimonial-title {
     flex-direction: column;
     text-align: center;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 30px;
 }
 
 .testimonial-title h6 {
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .testimonial-title h2 {
@@ -291,9 +311,10 @@ header {
     padding-left: 10px;
 }
 
-.testimonial-card h5 {
+.testimonial-card h6 {
     text-transform: uppercase;
     padding-top: 20px;
+    font-weight: 500;
 }
 
 #testimonials div:nth-child(3) {
@@ -348,6 +369,10 @@ header {
     #planning {
         flex-direction: column;
         padding-inline: 3%;
+    }
+
+    #left-card h4 {
+        font-size: 4rem;
     }
 
     #right-card {
@@ -417,6 +442,10 @@ header {
 
     #planning {
         padding-inline: 8%;
+    }
+
+    #left-card h4 {
+        font-size: 2rem;
     }
 
     /****************** TESTIMONIALS SECTION ******************/
