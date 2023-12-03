@@ -354,6 +354,16 @@ header {
         margin-top: 20px;
     }
 
+    /****************** TESTIMONIALS SECTION ******************/
+
+    .testimonial-card figure {
+        flex-basis: 30%;
+    }
+
+    .testimonial-card div {
+        flex-basis: 70%;
+    }
+
 }
 
 
@@ -407,5 +417,17 @@ header {
 
     #planning {
         padding-inline: 8%;
+    }
+
+    /****************** TESTIMONIALS SECTION ******************/
+
+    .testimonial-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial-card figure {
+        width: 70%;
+        margin: 0;
     }
 }
