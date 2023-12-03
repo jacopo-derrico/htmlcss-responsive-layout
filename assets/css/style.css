@@ -431,6 +431,12 @@ header {
         flex-basis: 70%;
     }
 
+    /****************** BENEFITS SECTION ******************/
+
+    .benefits-card {
+        width: calc((100% / 2) - 10px);
+    }
+
 }
 
 
@@ -501,4 +507,15 @@ header {
         width: 70%;
         margin: 0;
     }
+
+    /****************** BENEFITS SECTION ******************/
+
+    #benefits h2 {
+        font-size: 2rem;
+    }
+
+    .benefits-card {
+        width: 100%;
+    }
+
 }
