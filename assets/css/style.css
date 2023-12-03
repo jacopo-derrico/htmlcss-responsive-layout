@@ -98,6 +98,12 @@ h6 {
     text-transform: capitalize;
 }
 
+.btn-purple {
+    padding: 8px 40px;
+    color: white;
+    background-color: var(--purpleColor);
+}
+
 /****************** SECTION HEADER ******************/
 
 header {
@@ -246,7 +252,7 @@ header {
 /****************** !SECTION PLANNING END ******************/
 
 
-/****************** SECTION TRSTIMONIALS ******************/
+/****************** SECTION TESTIMONIALS ******************/
 
 #testimonials .testimonial-title {
     flex-direction: column;
@@ -321,11 +327,47 @@ header {
     margin-block: 20px;
 }
 
+/****************** !SECTION TESTIMONIALS END ******************/
 
 
+/****************** SECTION BENEFITS ******************/
 
-/****************** !SECTION TRSTIMONIALS END ******************/
+#benefits {
+    background-color: var(--purpleColor);
+    padding-block: 50px;
+}
 
+#benefits h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#benefits p {
+    font-weight: 200;
+}
+
+#benefits-cards {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefits-card {
+    background-color: white;
+    border-radius: 30px;
+    width: calc((100% / 3) - 20px + (20px / 3));
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.benefits-card h1,
+.benefits-card h4 {
+    color: var(--purpleColor);
+    text-transform: capitalize;
+}
+
+/****************** !SECTION BENEFITS END ******************/
 
 
 /*********************************************************
