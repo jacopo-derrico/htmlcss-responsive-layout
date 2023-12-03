@@ -342,6 +342,18 @@ header {
         width: 50%;
         height: 100%;
     }
+
+    /****************** PLANNING SECTION ******************/
+
+    #planning {
+        flex-direction: column;
+        padding-inline: 3%;
+    }
+
+    #right-card {
+        margin-top: 20px;
+    }
+
 }
 
 
@@ -389,5 +401,11 @@ header {
 
     .light-blue-card p {
         font-size: 1.2rem;
+    }
+
+    /****************** PLANNING SECTION ******************/
+
+    #planning {
+        padding-inline: 8%;
     }
 }
