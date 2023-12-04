@@ -175,16 +175,14 @@ header {
 }
 
 .light-blue-card:first-child figure {
-    /* position: relative; */
-    flex-basis: 40%;
+    /* flex-basis: 40%; */
+    width: 40%;
     justify-content: center;
 }
 
-.light-blue-card:first-child figure img {
-    /* position: absolute; */
-    height: 100%;
-    /* width: min-content; */
-}
+/* .light-blue-card:first-child figure img {
+    max-height: 100%;
+} */
 
 #intro {
     flex-wrap: wrap;
