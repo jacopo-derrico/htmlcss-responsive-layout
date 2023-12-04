@@ -451,6 +451,8 @@ header {
 #get-started button {
     margin-block: 30px;
     padding: 20px 35px;
+    color: var(--purpleColor);
+    text-transform: capitalize;
 }
 
 .copyright {
@@ -557,6 +559,12 @@ header {
         width: 50%;
     }
 
+    /****************** GET STARTED SECTION ******************/
+
+    #get-started {
+        padding-inline: 20%;
+    }
+
 }
 
 
@@ -652,6 +660,16 @@ header {
 
     .about-us-right figure {
         width: 50%;
+    }
+
+    /****************** GET STARTED SECTION ******************/
+
+    #get-started {
+        padding-inline: 5%;
+    }
+
+    #get-started button {
+        width: 80%;
     }
 
 }
