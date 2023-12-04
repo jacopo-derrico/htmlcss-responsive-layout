@@ -420,6 +420,64 @@ header {
 
 /****************** !SECTION BENEFITS END ******************/
 
+/****************** SECTION GET STARTED ******************/
+
+#get-started {
+    padding-inline: 35%;
+    padding-block: 50px;
+    text-align: center;
+    color: white;
+    background-color: var(--purpleColor);
+    margin-bottom: 0;
+}
+
+#get-started span {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#get-started h3 {
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+#get-started h1 {
+    text-transform: capitalize;
+    color: var(--yellowColor);
+    margin-block: 40px;
+}
+
+#get-started button {
+    margin-block: 30px;
+    padding: 20px 35px;
+}
+
+.copyright {
+    justify-content: center;
+}
+
+#get-started ul {
+    list-style-type: disc;
+    margin-left: 1.2em;
+}
+
+#get-started ul li:nth-child(2) {
+    text-decoration: underline;
+    margin-left: 1.2em;
+}
+
+#get-started ul li:nth-child(2) a {
+    color: white;
+}
+
+
+
+
+
+
+/****************** !SECTION GET STARTED END ******************/
+
 
 /*********************************************************
     RESPONSIVE 
