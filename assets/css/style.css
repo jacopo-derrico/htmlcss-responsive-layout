@@ -488,6 +488,17 @@ header {
         width: calc((100% / 2) - 10px);
     }
 
+    /****************** ABOUT US SECTION ******************/
+
+    #about-us {
+        padding-inline: 3%;
+        gap: 80px;
+    }
+
+    .about-us-right {
+        width: 50%;
+    }
+
 }
 
 
@@ -567,6 +578,22 @@ header {
 
     .benefits-card {
         width: 100%;
+    }
+
+    /****************** ABOUT US SECTION ******************/
+
+    #about-us {
+        padding-inline: 5%;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .about-us-right {
+        width: 100%;
+    }
+
+    .about-us-right figure {
+        width: 50%;
     }
 
 }
