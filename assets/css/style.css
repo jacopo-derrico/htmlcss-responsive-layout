@@ -179,14 +179,9 @@ header {
 }
 
 .light-blue-card:first-child figure {
-    /* flex-basis: 40%; */
     width: 40%;
     justify-content: center;
 }
-
-/* .light-blue-card:first-child figure img {
-    max-height: 100%;
-} */
 
 #intro {
     flex-wrap: wrap;
@@ -240,15 +235,20 @@ header {
 
 #right-card p {
     font-style: italic;
-    margin-top: 30px;
+    margin-block: 30px;
 }
 
-.fa-arrow-down {
+.arrow-down {
     background-color: var(--purpleColor);
     border-radius: 50%;
     aspect-ratio: 1;
-    padding: 15px 20px;
-    margin-top: 30px;
+    padding: 19px 22px 15px 22px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.arrow-down svg {
+    padding-bottom: 0;
 }
 
 /****************** !SECTION PLANNING END ******************/
