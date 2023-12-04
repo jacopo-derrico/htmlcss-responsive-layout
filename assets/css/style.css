@@ -11,6 +11,7 @@
 html {
     font-family: 'PT Sans', sans-serif;
     line-height: 200%;
+    scroll-behavior: smooth;
 }
 
 .body-padding {
@@ -29,8 +30,6 @@ img {
 ul {
     list-style-type: none;
 }
-
-
 
 :root {
     --blueColor: #0284FD;
@@ -102,6 +101,11 @@ h6 {
     padding: 8px 40px;
     color: white;
     background-color: var(--purpleColor);
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 /****************** SECTION HEADER ******************/
