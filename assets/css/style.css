@@ -473,12 +473,30 @@ header {
     color: white;
 }
 
-
-
-
-
-
 /****************** !SECTION GET STARTED END ******************/
+
+
+/****************** SECTION FOOTER ******************/
+
+footer {
+    background-color: var(--darkGreyColor);
+    text-align: center;
+    padding: 30px 40%;
+    line-height: 140%;
+    color: white;
+    font-size: 14px;
+}
+
+footer p:first-child {
+    margin-bottom: 50px;
+}
+
+footer a {
+    color: var(--purpleColor);
+    text-decoration: underline;
+}
+
+/****************** !SECTION FOOTER END ******************/
 
 
 /*********************************************************
@@ -562,6 +580,12 @@ header {
     /****************** GET STARTED SECTION ******************/
 
     #get-started {
+        padding-inline: 20%;
+    }
+
+    /****************** FOOTER SECTION ******************/
+
+    footer {
         padding-inline: 20%;
     }
 
@@ -670,6 +694,12 @@ header {
 
     #get-started button {
         width: 80%;
+    }
+
+    /****************** FOOTER SECTION ******************/
+
+    footer {
+        padding-inline: 10%;
     }
 
 }
