@@ -371,7 +371,7 @@ header {
 
 /****************** !SECTION BENEFITS END ******************/
 
-/****************** SECTION BENEFITS ******************/
+/****************** SECTION ABOUT US ******************/
 
 #about-us {
     padding-inline: 15%;
@@ -422,7 +422,7 @@ header {
     padding-inline: 20px;
 }
 
-/****************** !SECTION BENEFITS END ******************/
+/****************** !SECTION ABOUT US END ******************/
 
 /****************** SECTION GET STARTED ******************/
 
@@ -595,7 +595,9 @@ footer a {
 
 }
 
+/****************** !SECTION TABLET VERSION END ******************/
 
+/****************** SECTION MOBILE VERSION ******************/
 
 @media screen and (max-width: 576px) {
 
@@ -707,3 +709,5 @@ footer a {
     }
 
 }
+
+/****************** !SECTION MOBILE VERSION END ******************/
