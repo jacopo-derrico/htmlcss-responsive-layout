@@ -32,11 +32,11 @@ ul {
 }
 
 :root {
-    --blueColor: #0284FD;
-    --lightBlueColor: #B5DEFF;
-    --purpleColor: #9792E4;
-    --yellowColor: #FDC15F;
-    --darkGreyColor: #2e2e2e;
+    --primaryColor: #0284FD;
+    --secondaryColor: #B5DEFF;
+    --tertiaryColor: #9792E4;
+    --accentColor: #FDC15F;
+    --darkColor: #2e2e2e;
 }
 
 section {
@@ -93,14 +93,14 @@ h6 {
 .btn-blue {
     padding: 8px 40px;
     color: white;
-    background-color: var(--blueColor);
+    background-color: var(--primaryColor);
     text-transform: capitalize;
 }
 
 .btn-purple {
     padding: 8px 40px;
     color: white;
-    background-color: var(--purpleColor);
+    background-color: var(--tertiaryColor);
 }
 
 .btn:hover {
@@ -111,7 +111,7 @@ h6 {
 /****************** SECTION HEADER ******************/
 
 header {
-    background-color: var(--blueColor);
+    background-color: var(--primaryColor);
     justify-content: space-between;
     align-items: center;
     padding-block: 10px;
@@ -141,12 +141,12 @@ header {
 /****************** SECTION INTRO ******************/
 
 .blue-icon {
-    color: var(--blueColor);
+    color: var(--primaryColor);
     font-size: 3rem;
 }
 
 .light-blue-card {
-    background-color: var(--lightBlueColor);
+    background-color: var(--secondaryColor);
     border-radius: 20px;
     width: calc(((100% / 3) - 20px) + (20px / 3));
     padding: 20px;
@@ -154,13 +154,13 @@ header {
 }
 
 .light-blue-card h5 {
-    color: var(--blueColor);
+    color: var(--primaryColor);
     margin-block: 20px;
 }
 
 .light-blue-card p {
     margin-top: 20px;
-    color: var(--darkGreyColor);
+    color: var(--darkColor);
 }
 
 .light-blue-card button {
@@ -195,7 +195,7 @@ header {
 
 #planning {
     padding: 80px 15% 60px 15%;
-    background-color: var(--purpleColor);
+    background-color: var(--tertiaryColor);
     gap: 70px;
 }
 
@@ -239,7 +239,7 @@ header {
 }
 
 .arrow-down {
-    background-color: var(--purpleColor);
+    background-color: var(--tertiaryColor);
     border-radius: 50%;
     aspect-ratio: 1;
     padding: 19px 22px 15px 22px;
@@ -269,11 +269,11 @@ header {
 }
 
 .testimonial-title h2 {
-    color: var(--purpleColor);
+    color: var(--tertiaryColor);
 }
 
 .testimonial-card {
-    background-color: var(--purpleColor);
+    background-color: var(--tertiaryColor);
     padding: 30px 20px;
     color: white;
     border-radius: 30px;
@@ -335,7 +335,7 @@ header {
 /****************** SECTION BENEFITS ******************/
 
 #benefits {
-    background-color: var(--purpleColor);
+    background-color: var(--tertiaryColor);
     padding-block: 50px;
 }
 
@@ -365,7 +365,7 @@ header {
 
 .benefits-card h1,
 .benefits-card h4 {
-    color: var(--purpleColor);
+    color: var(--tertiaryColor);
     text-transform: capitalize;
 }
 
@@ -382,7 +382,7 @@ header {
 #about-us h2,
 #about-us h4,
 #about-us i {
-    color: var(--purpleColor);
+    color: var(--tertiaryColor);
 }
 
 #about-us h2 {
@@ -431,7 +431,7 @@ header {
     padding-block: 50px;
     text-align: center;
     color: white;
-    background-color: var(--purpleColor);
+    background-color: var(--tertiaryColor);
     margin-bottom: 0;
 }
 
@@ -448,14 +448,14 @@ header {
 
 #get-started h1 {
     text-transform: capitalize;
-    color: var(--yellowColor);
+    color: var(--accentColor);
     margin-block: 40px;
 }
 
 #get-started button {
     margin-block: 30px;
     padding: 20px 35px;
-    color: var(--purpleColor);
+    color: var(--tertiaryColor);
     text-transform: capitalize;
 }
 
@@ -483,7 +483,7 @@ header {
 /****************** SECTION FOOTER ******************/
 
 footer {
-    background-color: var(--darkGreyColor);
+    background-color: var(--darkColor);
     text-align: center;
     padding: 30px 40%;
     line-height: 140%;
@@ -496,7 +496,7 @@ footer p:first-child {
 }
 
 footer a {
-    color: var(--purpleColor);
+    color: var(--tertiaryColor);
     text-decoration: underline;
 }
 
